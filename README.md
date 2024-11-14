@@ -44,4 +44,3 @@ This project demonstrates how to use RMAN for incremental backups and database r
 
 - **Generate an RMAN Recovery Report**  
   Use RMAN’s reporting features to confirm that the recovery was successful and all data files are in a consistent state.
-"""
