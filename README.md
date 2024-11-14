@@ -35,9 +35,6 @@ This project demonstrates how to use RMAN for incremental backups and database r
 - **Use RMAN to Restore Missing Files**  
   Initiate the RMAN restore process to retrieve the missing or damaged data files from the incremental backups. RMAN will use the most recent backups to restore the database to its previous state.
 
-- **Apply Archive and Redo Logs**  
-  After restoring the data files, apply archive logs and redo logs to bring the database to a consistent state, capturing all changes made since the last backup.
-
 ### 5. Validate the Recovery
 - **Check Data Integrity**  
   Run queries on the restored database to verify that all data is intact and the database is fully functional.
